@@ -1,0 +1,45 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilos por sección */
+
+#quienes-somos {
+    padding: 20px;
+}
+
+#vision, #mision, #objetivos {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#objetivos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#objetivos li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para el footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
