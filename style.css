@@ -13,6 +13,21 @@ ul {
   padding: 0;
   margin: 0;
 }
+.tablas{
+  width: fit-content;
+  display: inline-grid;
+}
+
+
+.texto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mitad {
+  grid-column: 1;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -43,6 +58,7 @@ ul {
 .landing-page header {
   min-height: 80px;
   display: flex;
+  background-color: aliceblue;
 }
 @media (max-width: 767px) {
   .landing-page header {
@@ -98,10 +114,10 @@ ul {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: #6c63ff;
+  background-color: #48CAE4;
 }
 .landing-page header .links li:not(:last-child):hover {
-  color: #6c63ff;
+  color: #48CAE4;
 }
 .landing-page .content .container {
   display: flex;
@@ -141,7 +157,7 @@ ul {
   margin-top: 30px;
   cursor: pointer;
   color: #FFF;
-  background-color: #6c63ff;
+  background-color: #48CAE4;
 }
 .landing-page .content .image img {
   max-width: 100%;
